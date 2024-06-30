@@ -1,6 +1,5 @@
 .features{
     background-image: url('.../images/bg-img-feat.png');
-    width: 100%;
     text-align: center;
 
     button{
@@ -37,6 +36,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 
     .features-card{
         width: 360px;
@@ -56,4 +56,19 @@
             line-height: 24px;
         }
     }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .features{
+        h2{
+            font-size: 24px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+
 }

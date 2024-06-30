@@ -1,0 +1,51 @@
+
+.idea-card{
+    width: 100%;
+    padding: 60px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #2A3342;
+    border-radius: 10px;
+}
+
+.idea-title{
+    max-width: 450px;
+    h2{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        margin: 10px 0;
+        color: #ffff;
+    }
+
+    p{
+        color: #8896AB;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+}
+
+.idea-btn1{
+    background: #22C55E;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 20px 13px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.idea-btn2{
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+    color: #2A3342;
+    padding: 13px 20px 13px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
