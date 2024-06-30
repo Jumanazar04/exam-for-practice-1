@@ -145,7 +145,7 @@ header {
   }
 }
 .main-head {
-  padding: 80px;
+  padding: 30px 80px;
 }
 
 .head {
@@ -189,6 +189,7 @@ header {
   border: none;
   background-color: #22C55E;
   color: white;
+  cursor: pointer;
 }
 .head-child h1 {
   color: #fff;
@@ -272,4 +273,82 @@ header {
     bottom: 15px;
     left: 15px;
   }
+}
+.company {
+  background: #F7F8F9;
+  padding: 20px 0;
+}
+
+.companies h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #BBC3CF;
+  text-align: center;
+  margin: 50px 0;
+}
+.companies .companies-logo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  margin-bottom: 60px;
+}
+
+.company-bg-img {
+  background-image: url(".../images/bg-img.png");
+}
+
+.features {
+  background-image: url(".../images/bg-img-feat.png");
+  width: 100%;
+  text-align: center;
+}
+.features button {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 36px;
+  border: none;
+  background-color: #22C55E;
+  color: white;
+  cursor: pointer;
+  margin-top: 80px;
+}
+.features h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #2A3342;
+}
+.features p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #556987;
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.features-cards .features-card {
+  width: 360px;
+  padding: 8px;
+}
+.features-cards .features-card h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #2A3342;
+  margin: 14px 0;
+}
+.features-cards .features-card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }/*# sourceMappingURL=main.css.map */

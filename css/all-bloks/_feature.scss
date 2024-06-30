@@ -1,0 +1,59 @@
+.features{
+    background-image: url('.../images/bg-img-feat.png');
+    width: 100%;
+    text-align: center;
+
+    button{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        border-radius: 36px;
+        border: none;
+        background-color: #22C55E;
+        color: white;
+        cursor: pointer;
+        margin-top: 80px;
+    }
+
+    h2{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        color: #2A3342;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #556987;
+        max-width: 910px;
+        margin: 0 auto;
+    }
+}
+
+.features-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .features-card{
+        width: 360px;
+        padding: 8px;
+
+        h4{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            color: #2A3342;
+            margin: 14px 0;
+        }
+
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+}
