@@ -1,0 +1,36 @@
+.main-head{
+    padding: 80px;
+}
+
+.head{
+    width: 100%;
+    min-height: 568px;
+    background: #2A3342;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+
+    .img-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .img-2{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .img-4{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .img-3{
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+}

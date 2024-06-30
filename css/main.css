@@ -1,0 +1,168 @@
+.container {
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.navbar-1 {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar-menu li {
+  list-style: none;
+}
+.navbar-menu a {
+  text-decoration: none;
+  color: #556987;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.registration {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-btn {
+  background: transparent;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+  border-radius: 6px;
+}
+
+.login-btn:hover {
+  border: 1px solid black;
+}
+
+.sign-btn {
+  background: #22C55E;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 8px 16px 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  width: 30px;
+  background: transparent;
+  border: none;
+}
+.hamburger img {
+  width: 30px;
+}
+
+.close-btn {
+  display: none;
+  background: transparent;
+  border: none;
+}
+.close-btn img {
+  width: 50px;
+}
+
+@media (max-width: 970px) {
+  .navbar-1 {
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-1 {
+    width: 70%;
+    height: 80vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(115, 115, 115);
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 40px;
+    transform: translateX(-200%);
+    transition: 1s all;
+    z-index: 111111111;
+  }
+  .navbar-menu {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 40px;
+  }
+  .navbar-menu a {
+    font-size: 30px;
+    color: white;
+  }
+  .registration {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 40px;
+  }
+  .registration .login-btn {
+    font-size: 30px;
+    color: white;
+  }
+  .registration .sign-btn {
+    font-size: 30px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .close-btn {
+    display: block;
+  }
+  .active-menu {
+    transition: 1s all;
+    transform: translateX(0);
+  }
+}
+.main-head {
+  padding: 80px;
+}
+
+.head {
+  width: 100%;
+  min-height: 568px;
+  background: #2A3342;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+}
+.head .img-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.head .img-2 {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.head .img-4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.head .img-3 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}/*# sourceMappingURL=main.css.map */

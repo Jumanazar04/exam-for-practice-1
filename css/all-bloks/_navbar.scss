@@ -1,0 +1,143 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.navbar-1{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #556987;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+.registration{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn{
+    background: transparent;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    padding: 8px 16px 8px 16px;
+    border-radius: 6px;
+}
+
+.login-btn:hover{
+    border: 1px solid black;
+}
+
+.sign-btn{
+    background: #22C55E;
+    color: white;
+    font-family: "Poppins" , sans-serif;
+    padding: 8px 16px 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+    width: 30px;
+    background: transparent; 
+    border: none;
+
+    img{
+        width: 30px;
+    }
+}
+
+.close-btn{
+    display: none;
+    background: transparent;
+    border: none;
+
+    img{
+        width: 50px;
+    }
+}
+
+
+@media (max-width: 970px) {
+    .navbar-1 {
+        width: 85%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-1 {
+        width: 70%;
+        height: 80vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: rgb(115, 115, 115);
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        row-gap: 40px;
+        transform: translateX(-200%);
+        transition: 1s all;
+        z-index: 111111111;
+    }
+    .navbar-menu{
+        flex-direction: column;
+        align-items: start;
+        row-gap: 40px;
+         a{
+            font-size: 30px;
+            color: white;
+         }
+    }
+
+    .registration{
+        flex-direction: column;
+        align-items: start;
+        row-gap: 40px;
+        
+        .login-btn {
+            font-size: 30px;
+            color: white;
+        }
+
+        .sign-btn{
+            font-size: 30px;
+        }
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .close-btn{
+        display: block;
+    }
+
+    .active-menu{
+        transition: 1s all;
+        transform: translateX(0);
+    }
+}
