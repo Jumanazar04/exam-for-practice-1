@@ -49,3 +49,16 @@
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .idea-title{
+        h2{
+            font-size: 2px;
+            text-align: center;
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+}
