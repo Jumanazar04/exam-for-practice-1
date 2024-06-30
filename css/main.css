@@ -4,6 +4,15 @@
   padding: 0 15px;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+header {
+  background-color: #F7F8F9;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -97,10 +106,11 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    row-gap: 40px;
+    row-gap: 20px;
     transform: translateX(-200%);
     transition: 1s all;
     z-index: 111111111;
+    padding-top: 30px;
   }
   .navbar-menu {
     flex-direction: column;
@@ -145,6 +155,10 @@
   border-radius: 24px;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .head .img-1 {
   position: absolute;
@@ -165,4 +179,97 @@
   position: absolute;
   bottom: 30px;
   left: 30px;
+}
+
+.head-child .header-btn {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 36px;
+  border: none;
+  background-color: #22C55E;
+  color: white;
+}
+.head-child h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: -0.02em;
+  max-width: 847px;
+  padding: 0;
+}
+.head-child p {
+  color: #8896AB;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  max-width: 715px;
+  margin: 10px auto;
+}
+.head-child span {
+  color: #8896AB;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.head-child .form-btn {
+  background: #22C55E;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 13px 16px 13px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.head-child input {
+  padding: 0 20px;
+  border-radius: 6px;
+  background-color: white;
+  border: none;
+  height: 46px;
+  width: 320px;
+}
+
+@media (max-width: 768px) {
+  .main-head {
+    padding: 0;
+  }
+  .head {
+    width: 95%;
+    padding: 50px 10px;
+  }
+  .head-child h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 32px;
+  }
+  .head-child p {
+    font-size: 14px;
+  }
+  .head-child span {
+    font-size: 10px;
+  }
+  .head-child input {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+  .head .img-1 {
+    width: 100px;
+  }
+  .head .img-2 {
+    width: 80px;
+    top: 15px;
+    right: 15px;
+  }
+  .head .img-4 {
+    width: 100px;
+  }
+  .head .img-3 {
+    width: 80px;
+    bottom: 15px;
+    left: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
