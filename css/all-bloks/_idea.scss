@@ -1,6 +1,6 @@
 
-.idea-card{
-    width: 100%;
+.idea-card{ 
+    max-width: 100%;
     padding: 60px 10px;
     display: flex;
     justify-content: space-evenly;
@@ -53,7 +53,7 @@
 @media (max-width: 768px) {
     .idea-title{
         h2{
-            font-size: 2px;
+            font-size: 28px;
             text-align: center;
         }
         p{
