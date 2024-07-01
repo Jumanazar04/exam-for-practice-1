@@ -671,7 +671,7 @@ header {
 
 .works-card1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 40px;
   flex-wrap: wrap;
   margin: 80px 0;
@@ -724,5 +724,73 @@ header {
   .play-work {
     top: 35%;
     left: 35%;
+  }
+}
+.app {
+  margin: 50px 0;
+  text-align: center;
+}
+.app h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2A3342;
+}
+.app p {
+  color: #556987;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  max-width: 919px;
+  margin: 20px auto;
+}
+
+.app-btn {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 36px;
+  border: none;
+  background: #DCFCE7;
+  color: #22C55E;
+  cursor: pointer;
+}
+
+.app-btn1 {
+  background: #22C55E;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 13px 20px 13px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.app-btn2 {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  color: #2A3342;
+  padding: 13px 20px 13px 20px;
+  border-radius: 6px;
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+
+@media (max-width: 970px) {
+  .app-img-1 {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .app-img-1 {
+    width: 410px;
+  }
+}
+@media (max-width: 468px) {
+  .app-img-1 {
+    width: 250px;
   }
 }/*# sourceMappingURL=main.css.map */
