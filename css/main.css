@@ -793,4 +793,42 @@ header {
   .app-img-1 {
     width: 250px;
   }
+}
+.contact {
+  text-align: center;
+}
+.contact h2 {
+  color: #2A3342;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  margin: 15px auto;
+}
+.contact p {
+  color: #556987;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  max-width: 919px;
+  margin: 0 auto;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 80px 0;
+}
+.contact-cards h4 {
+  color: #2A3342;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 15px 0;
+}
+
+.map-if {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
