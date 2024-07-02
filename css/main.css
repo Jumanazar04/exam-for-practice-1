@@ -831,4 +831,40 @@ header {
 
 .map-if {
   width: 100%;
+  margin-bottom: -180px;
+}
+
+footer {
+  background: #2A3342;
+  text-align: center;
+  padding: 350px 0 60px 0;
+}
+footer hr {
+  background: #333F51;
+  margin: 50px 0;
+}
+footer p {
+  color: #8896AB;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer-menu li {
+  list-style: none;
+}
+.footer-menu li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #8896AB;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+footer{
+    background: #2A3342;
+    text-align: center;
+    padding: 350px 0 60px 0;
+
+    hr{
+        background: #333F51;
+        margin: 50px 0;
+    }
+
+    p{
+        color: #8896AB;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+.footer-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    li{
+        list-style: none;
+
+
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            color:  #8896AB;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+    }
+
+
+}
